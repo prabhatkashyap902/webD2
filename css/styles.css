@@ -33,7 +33,6 @@ body{
 }
 .feature{
   text-align: center;
-  margin-bottom: 100px;
 }
 .feature-icon{
   color: #ef8172;
@@ -51,6 +50,51 @@ body{
   color:#8f8f8f;
   width: 70%;
   margin: auto;
+}
+#testimonials{
+  padding:7% 15%;
+  background-color:#ff4c68;
+  color: white;
+  text-align: center;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  width: 70%;
+  margin: auto;
+  line-height:1.5;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 20%;
+  margin: 10px;
+}
+#press{
+  background-color: white;
+  text-align: center;
+  margin: 10% 10%;
+
+}
+.press-logo{
+  margin: 40px 15px 0px 15px;
+  width: 20%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.card{
+  margin: 20px 15px 40px 15px;
+}
+#cta,#footer{
+  background-color: #ff4c68;
+  color: white;
+  padding-top: 20px;
+  padding: 2% 5% 2%;
+}
+.copyright-p{
+  margin-bottom:0;
+  font-family: "Montserrat";
 }
 #title{
   background-color: #ff4c68;
