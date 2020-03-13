@@ -27,9 +27,13 @@ body{
 .image-iphone{
   width: 60% ;
   transform: rotate(25deg);
+  position: absolute;
 }
 #features{
-  margin: 100px;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
 }
 .feature{
   text-align: center;
@@ -89,12 +93,27 @@ h2{
 #cta,#footer{
   background-color: #ff4c68;
   color: white;
-  padding-top: 20px;
-  padding: 2% 5% 2%;
+  padding: 5% 5% 3%;
+  text-align: center;
+}
+#footer{
+  background-color: white;
+  color:grey;
 }
 .copyright-p{
   margin-bottom:0;
   font-family: "Montserrat";
+}
+.h3-last{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 50px;
+  width: 70%;
+  margin: auto;
+  padding: 40px 0;
+}
+.footer-images{
+    margin:10px;
 }
 #title{
   background-color: #ff4c68;
